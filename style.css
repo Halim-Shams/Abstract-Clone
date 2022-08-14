@@ -1,0 +1,103 @@
+/* COLORLS 
+BUTTONS and LINKS: #4C5FD5
+NAV AND FOOTER: #000000
+SEARCH BACKGROUND: #dadbf1
+BACKGROUND (LIGHT): #fff
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 19px 72px;
+    gap: 34rem;
+    align-items: center;
+    font-size: 14px;
+    height: 2rem;
+}
+
+.brand {
+    display: inline;
+    margin-right: 4px;
+}
+
+.help {
+    display: inline;
+    border-left: #fff solid 2px;
+    margin-left: 3px;
+    padding-left: 12px;
+}
+
+.nav-items {
+    font-weight: 100;
+}
+
+.btn {
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 8px 20px;
+}
+
+.btn-main {
+    background-color: #4c5fd5;
+}
+
+.btn-dark {
+    border: #fff solid 1px;
+    background-color: #000000;
+    margin-right: 6px;
+}
+
+
+/* SEARCH PLACE */
+
+.search-place {
+    background-color: #dadbf1;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-header {
+    font-size: 3.7rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.search-box {
+    width: 36.3rem;
+    height: 2.9rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.09);
+    border: solid 1px #000000;
+    border-radius: 3px;
+    outline: none;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}
+
+.search-box::placeholder {
+    font-size: 1rem;
+}
+
+.search-box:hover {
+    border-color: #4c5fd5;
+}
