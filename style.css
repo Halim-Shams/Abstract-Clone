@@ -123,6 +123,7 @@ body {
     column-gap: 4rem;
     justify-content: center;
     padding-top: 8.5rem;
+    padding-bottom: 7rem;
 }
 
 .feature {
@@ -157,4 +158,52 @@ body {
 p a:link {
     text-decoration: none;
     color: #4c5fd5;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+    color: #fff;
+    background: #000000;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.header {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.small-header {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.footer-down-items {
+    display: flex;
+    column-gap: 7rem;
+}
+
+.logo-footer {
+    width: 32px;
+    height: 32px;
+}
+
+.end-item {
+    margin-bottom: 1.5rem;
 }
