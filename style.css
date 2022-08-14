@@ -3,6 +3,7 @@ BUTTONS and LINKS: #4C5FD5
 NAV AND FOOTER: #000000
 SEARCH BACKGROUND: #dadbf1
 BACKGROUND (LIGHT): #fff
+GRAY: #191a1b
 */
 
 * {
@@ -15,7 +16,7 @@ body {
 }
 
 
-/* NAVBAR */
+/* NAVBAR SECTION*/
 
 .navbar {
     background-color: #000000;
@@ -55,16 +56,26 @@ body {
 
 .btn-main {
     background-color: #4c5fd5;
+    border: none;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}
+
+.btn-main:hover {
+    background-color: #fff;
+    color: #000000;
 }
 
 .btn-dark {
     border: #fff solid 1px;
-    background-color: #000000;
+    background-color: #191a1b;
     margin-right: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 
-/* SEARCH PLACE */
+/* SEARCH PLACE SECTION */
 
 .search-place {
     background-color: #dadbf1;
@@ -100,4 +111,50 @@ body {
 
 .search-box:hover {
     border-color: #4c5fd5;
+}
+
+
+/* FEATURES SECTION */
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 6rem;
+    column-gap: 4rem;
+    justify-content: center;
+    padding-top: 8.5rem;
+}
+
+.feature {
+    display: flex;
+    column-gap: 1.5rem;
+    width: 36%;
+}
+
+.side-img {
+    width: 80px;
+    height: 80px;
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature-header {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.feature-description {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    color: #191a1b;
+}
+
+p a:link {
+    text-decoration: none;
+    color: #4c5fd5;
 }
