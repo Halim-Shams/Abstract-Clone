@@ -160,6 +160,10 @@ p a:link {
     color: #4c5fd5;
 }
 
+p a:link:hover {
+    text-decoration: underline;
+}
+
 
 /* FOOTER SECTION */
 
@@ -206,4 +210,13 @@ li {
 
 .end-item {
     margin-bottom: 1.5rem;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
